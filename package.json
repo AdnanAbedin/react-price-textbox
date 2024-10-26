@@ -1,0 +1,39 @@
+{
+  "name": "react-price-textbox",
+  "version": "1.0.0",
+  "description": "npm package",
+  "main": "src/PriceTextbox.js",
+  "scripts": {
+  "build": "babel src --out-dir dist"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdnanAbedin/react-price-textbox.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "input",
+    "textbox",
+    "price-input"
+  ],
+  "author": "Mohammad Adnan Abedin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdnanAbedin/react-price-textbox/issues"
+  },
+  "homepage": "https://github.com/AdnanAbedin/react-price-textbox#readme",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
